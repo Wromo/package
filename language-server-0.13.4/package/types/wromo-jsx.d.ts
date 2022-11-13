@@ -893,7 +893,8 @@ declare namespace wromoHTML.JSX {
 		z?: number | string | undefined | null;
 		zoomAndPan?: string | undefined | null;
 	}
-
+ 
+	
 	// eslint-disable-next-line @typescript-eslint/no-empty-interface
 	interface HTMLProps<T extends EventTarget> extends HTMLAttributes<T> {}
 	// eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -1075,3 +1076,4 @@ declare namespace wromoHTML.JSX {
 		[name: string]: { [name: string]: any };
 	}
 }
+
